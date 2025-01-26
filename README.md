@@ -64,7 +64,7 @@ npm run package
 
 ## License
 
-MIT License - see LICENSE file for details
+Apache 2.0 License - see LICENSE file for details
 
 ## Support
 
