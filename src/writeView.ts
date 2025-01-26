@@ -511,10 +511,14 @@ export class WriteViewProvider implements vscode.WebviewViewProvider {
                     rows="1"
                 ></textarea>
                 <button id="sendButton" title="${translations.sendButton}">
-                    <i class="codicon codicon-arrow-right"></i>
+                    <svg class="button-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.5 8l-13-6v4.5l9 1.5-9 1.5v4.5l13-6z"/>
+                    </svg>
                 </button>
                 <button id="clearButton" class="clear-button" title="${translations.clearButton}">
-                    <i class="codicon codicon-trash"></i>
+                    <svg class="button-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 10.5l-1 1L8 9l-2.5 2.5-1-1L7 8 4.5 5.5l1-1L8 7l2.5-2.5 1 1L9 8l2.5 2.5z"/>
+                    </svg>
                 </button>
             </div>
             <script>
